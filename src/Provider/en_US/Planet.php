@@ -10,9 +10,23 @@ class Planet extends Base
      * @var array
      */
     protected static $planets = [
-        'Ahch-To', 'Alderaan', 'Bespin', 'Cantonica', 'Cato Neimoidia', 'Coruscant', 'D\'Qar', 'Dagobah', 'Endor',
-        'Felucia', 'Geonosis', 'Hosnian Prime', 'Hoth', 'Jakku', 'Kamino', 'Kashyyyk', 'Mustafar', 'Mygeeto', 'Naboo',
-        'Polis Massa', 'Starkiller Base', 'Takodana', 'Tatooine', 'Utapau', 'Yavin 4',
+        'Ahch-To', 'Alderaan',
+        'Bespin',
+        'Cantonica', 'Cato Neimoidia', 'Coruscant',
+        'D\'Qar', 'Dagobah',
+        'Endor',
+        'Felucia',
+        'Geonosis',
+        'Hosnian Prime', 'Hoth', '
+        Jakku',
+        'Kamino', 'Kashyyyk',
+        'Mustafar', 'Mygeeto',
+        'Naboo',
+        'Polis Massa',
+        'Starkiller Base',
+        'Takodana', 'Tatooine',
+        'Utapau',
+        'Yavin 4',
     ];
 
     /**
