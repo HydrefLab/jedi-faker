@@ -18,7 +18,7 @@ class Factory extends FakerFactory
      * @param string $locale
      * @return Generator
      */
-    public static function create($locale = self::DEFAULT_LOCALE): Generator
+    public static function create(string $locale = self::DEFAULT_LOCALE): Generator
     {
         $generator = parent::create($locale);
 
@@ -36,9 +36,12 @@ class Factory extends FakerFactory
      * @return string
      * @throws \InvalidArgumentException
      */
-    protected static function getProviderClass($provider, $locale): string
+    protected static function getProviderClass(string $provider, string $locale): string
     {
-        $providerClass = sprintf('HydrefLab\JediFaker\Provider\%s\%s', $locale, $provider);
+        $providerClass = ($locale && self::DEFAULT_LOCALE !== $locale)
+            ? sprintf('HydrefLab\JediFaker\Provider\%s\%s', $locale, $provider)
+            : sprintf('HydrefLab\JediFaker\Provider\%s', $provider);
+
 
         if (true === class_exists($providerClass, true)) {
             return $providerClass;
