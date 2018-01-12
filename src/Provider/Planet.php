@@ -1,6 +1,6 @@
 <?php
 
-namespace HydrefLab\JediFaker\Provider\en_US;
+namespace HydrefLab\JediFaker\Provider;
 
 use Faker\Provider\Base;
 
@@ -17,8 +17,8 @@ class Planet extends Base
         'Endor',
         'Felucia',
         'Geonosis',
-        'Hosnian Prime', 'Hoth', '
-        Jakku',
+        'Hosnian Prime', 'Hoth',
+        'Jakku',
         'Kamino', 'Kashyyyk',
         'Mustafar', 'Mygeeto',
         'Naboo',

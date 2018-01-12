@@ -1,6 +1,6 @@
 <?php
 
-namespace HydrefLab\JediFaker\Provider\en_US;
+namespace HydrefLab\JediFaker\Provider;
 
 use Faker\Provider\Base;
 
