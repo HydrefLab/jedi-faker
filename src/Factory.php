@@ -42,7 +42,6 @@ class Factory extends FakerFactory
             ? sprintf('HydrefLab\JediFaker\Provider\%s\%s', $locale, $provider)
             : sprintf('HydrefLab\JediFaker\Provider\%s', $provider);
 
-
         if (true === class_exists($providerClass, true)) {
             return $providerClass;
         }
