@@ -4,6 +4,8 @@
     <a href="https://github.com/fzaninotto/Faker" target="_blank">Faker</a> extension for Star Wars junkie.
 </p>
 
+[![Build Status](https://travis-ci.org/HydrefLab/jedi-faker.svg?branch=master)](https://travis-ci.org/HydrefLab/jedi-faker)
+
 ## Installation
 
 ```sh
