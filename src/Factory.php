@@ -18,7 +18,7 @@ class Factory extends FakerFactory
      * @param string $locale
      * @return Generator
      */
-    public static function create(string $locale = self::DEFAULT_LOCALE): Generator
+    public static function create($locale = self::DEFAULT_LOCALE): Generator
     {
         $generator = parent::create($locale);
 

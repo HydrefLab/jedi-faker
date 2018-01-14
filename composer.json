@@ -1,6 +1,8 @@
 {
     "name": "hydreflab/jedi-faker",
+    "type": "library",
     "description": "Faker extension for Star Wars junkie",
+    "keywords": ["faker", "faker-extension", "fixtures", "data", "star-wars"],
     "license": "MIT",
     "support": {
         "issues": "https://github.com/HydrefLab/jedi-faker/issues",
@@ -16,10 +18,17 @@
         "php": ">=7.1",
         "fzaninotto/faker": "~1.4"
     },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
     "autoload": {
         "psr-4": {
             "HydrefLab\\JediFaker\\": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "autoload-dev": {
+        "psr-4": {
+            "HydrefLab\\JediFaker\\Test\\": "tests/"
+        }
+    }
 }
