@@ -18,6 +18,9 @@
         "php": ">=7.1",
         "fzaninotto/faker": "~1.4"
     },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
     "autoload": {
         "psr-4": {
             "HydrefLab\\JediFaker\\": "src/"
