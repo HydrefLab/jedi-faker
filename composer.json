@@ -25,5 +25,10 @@
         "psr-4": {
             "HydrefLab\\JediFaker\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HydrefLab\\JediFaker\\Test\\": "tests/"
+        }
     }
 }
