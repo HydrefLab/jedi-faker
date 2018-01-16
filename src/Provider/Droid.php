@@ -15,7 +15,7 @@ class Droid extends Base
         'C-3PO',
         'EV-9D9',
         'FA-4',
-        'IG-88',
+        'IGG-88',
         'R2-D2', 'R2-Q5', 'R5-D4',
         'TC-14',
     ];

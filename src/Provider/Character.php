@@ -19,13 +19,20 @@ class Character extends Base
      * @var array
      */
     protected static $lightSide = [
-        'Anakin Skywalker',
+        'Adi Gallia', 'Agen Kolar', 'Anakin Skywalker',
+        'Coleman Kcaj',
+        'Depa Billaba',
+        'Eeth Koth', 'Even Piell',
+        'Ki Adi Mundi', 'Kit Fisto',
         'Obi-Wan Kenobi',
         'Leia Organa', 'Luke Skywalker',
         'Mace Windu',
+        'Oppo Rancisis',
+        'Plo Koon',
         'Rey',
+        'Saesee Tiin', 'Shaak Ti', 'Stass Allie',
         'Qui-Gon Jinn',
-        'Yoda',
+        'Yaddle', 'Yarael Poof', 'Yoda',
     ];
 
     /**
@@ -33,19 +40,22 @@ class Character extends Base
      */
     protected static $characters = [
         'Amilyn Holdo',
-        'Boba Fett',
-        'C-3PO', 'Captain Phasma', 'Chewbacca',
-        'Finn',
+        'Bail Prestor Organa', 'Boba Fett', 'Bossk', 'Bren Derlin',
+        'C-3PO', 'Captain Phasma', 'Chewbacca', 'Crix Madine',
+        'Finis Valorum', 'Finn', 'Firmus Piett',
         'Gial Ackbar', 'Grievous',
         'Han Solo',
-        'Jabba the Hutt', 'Jango Fett', 'Jar Jar Binks',
-        'Lando Calrissian',
-        'Maz Kanata',
+        'Jabba the Hutt', 'Jan Dodonna', 'Jango Fett', 'Jar Jar Binks',
+        'Kendal Ozzel',
+        'Lando Calrissian', 'Lobot',
+        'Mas Amedda', 'Maz Kanata', 'Mon Mothma',
         'Nute Gunray',
-        'Padmé Amidala', 'Poe Dameron',
-        'R2-D2',
-        'Sheev Palpatine', 'Sebulba',
-        'Watto', 'Wilhuff Tarkin',
+        'Padmé Amidala', 'Poe Dameron', 'Poggle the Lesser',
+        'R2-D2', 'Rune Haako',
+        'Sheev Palpatine', 'Shmi Skywalker', 'Sebulba', 'Sly Moore',
+        'Taun We',
+        'Watto', 'Wedge Antilles', 'Wicket Warrick', 'Wilhuff Tarkin',
+        'Zam Wesell',
     ];
 
     /**
