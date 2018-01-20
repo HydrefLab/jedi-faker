@@ -14,6 +14,11 @@ class Squadron extends Base
     ];
 
     /**
+     * @var string
+     */
+    protected static $squadronWord = 'Squadron';
+
+    /**
      * @var array
      */
     protected static $squadron = [
@@ -56,7 +61,11 @@ class Squadron extends Base
      */
     public function squadron(): string
     {
-        return $this->generator->parse(static::randomElement(static::$squadron));
+        return sprintf(
+            '%s %s',
+            $this->generator->parse(static::randomElement(static::$squadron)),
+            static::$squadronWord
+        );
     }
 
     /**
