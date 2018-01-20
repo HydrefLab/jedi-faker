@@ -17,9 +17,18 @@ class Squadron extends Base
      * @var array
      */
     protected static $squadron = [
-        'Blue',
-        'Green', 'Gold',
-        'Red',
+        'Black', 'Blade', 'Blue',
+        'Corona', 'Cyan',
+        'Danger', 'Dust',
+        'Exeter',
+        'Gray', 'Green', 'Gold',
+        'Havoc',
+        'Nomad',
+        'Phoenix',
+        'Rascal', 'Red', 'Rogue',
+        'Scavenger', 'Stealth',
+        'Wolf',
+        'Yellow',
     ];
 
     /**
