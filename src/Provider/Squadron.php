@@ -23,7 +23,7 @@ class Squadron extends Base
      */
     protected static $squadron = [
         'Black', 'Blade', 'Blue',
-        'Corona', 'Cyan',
+        'Cobalt', 'Corona', 'Cyan',
         'Danger', 'Dust',
         'Exeter',
         'Gray', 'Green', 'Gold',

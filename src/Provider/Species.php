@@ -24,7 +24,7 @@ class Species extends Base
         'Luggabeast',
         'Mirialan', 'Mon Calamari',
         'Nautolan', 'Neimoidian', 'Nikto',
-        'Pantoran', 'Pau\'an',
+        'Pantoran', 'Pau\'an', 'Porg',
         'Quarren',
         'Rodian',
         'Saurin', 'Sullustan',
