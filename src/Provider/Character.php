@@ -11,6 +11,7 @@ class Character extends Base
      */
     protected static $darkSide = [
         'Darth Maul',  'Darth Sidious', 'Darth Vader', 'Dooku',
+        'Grievous',
         'Kylo Ren',
         'Snoke',
     ];
@@ -39,23 +40,32 @@ class Character extends Base
      * @var array
      */
     protected static $characters = [
-        'Amilyn Holdo',
-        'Bail Prestor Organa', 'Boba Fett', 'Bossk', 'Bren Derlin',
-        'C-3PO', 'Captain Phasma', 'Chewbacca', 'Crix Madine',
+        'Amilyn Holdo', 'Armitage Hux', 'Athgar Heece',
+        'Bail Prestor Organa', 'Bala-Tik', 'Bazine Netal', 'Boba Fett', 'Bobbajo', 'Bollie Prindel', 'Bossk',
+        'Bren Derlin',
+        'C\'ai Threnalli', 'C-3PO', 'Caluan Ematt', 'Chewbacca', 'Cratinus', 'Crix Madine', 'Crokind Shand', 'Crusher Roodown',
+        'Datoo', 'DJ', 'Dopheld Mitaka',
+        'Edrison Peavey', 'Ello Asty',
         'Finis Valorum', 'Finn', 'Firmus Piett',
-        'Gial Ackbar', 'Grievous',
+        'Gial Ackbar', 'Goss Toowers', 'Grummgar', 'Gwellis Bagnoro',
         'Han Solo',
-        'Jabba the Hutt', 'Jan Dodonna', 'Jango Fett', 'Jar Jar Binks',
-        'Kendal Ozzel',
-        'Lando Calrissian', 'Lobot',
-        'Mas Amedda', 'Maz Kanata', 'Mon Mothma',
-        'Nute Gunray',
-        'Padmé Amidala', 'Poe Dameron', 'Poggle the Lesser',
-        'R2-D2', 'Rune Haako',
-        'Sheev Palpatine', 'Shmi Skywalker', 'Sebulba', 'Sly Moore',
-        'Taun We',
-        'Watto', 'Wedge Antilles', 'Wicket Warrick', 'Wilhuff Tarkin',
-        'Zam Wesell',
+        'Ilco Munica', 'Infrablue Zedbeddy Coggins',
+        'Jabba the Hutt', 'Jan Dodonna', 'Jango Fett', 'Jar Jar Binks', 'Jashco Phurus', 'Jess Pava',
+        'Kalonia', 'Kaydel Ko Connix ', 'Kendal Ozzel', 'Korr Sella',
+        'Lando Calrissian', 'Lanever Villecham ', 'Larma D\'Acy', 'Lobot', 'Lor San Tekka',
+        'Mas Amedda', 'Maz Kanata', 'Moden Canady', 'Mon Mothma', 'Munduri',
+        'Nien Nunb', 'Nute Gunray',
+        'Padmé Amidala', 'Paige Tico', 'Phasma', 'Poe Dameron', 'Poggle the Lesser', 'Prashee', 'Praster Ommlen', 'Pru Sweevant',
+        'R2-D2', 'Razoo Qin-Fee', 'Rose Tico', 'Rune Haako',
+        'Sebulba', 'Sheev Palpatine', 'Shmi Skywalker', 'Sidon Ithano', 'Sonsigo', 'Slowen Lo', 'Sly Moore', 'Strono Tuggs',
+        'Sudswater Dillifay Glon',
+        'Tallissan Lintra', 'Taslin Brance', 'Taun We', 'Tasu Leech', 'Taybin Ralorsa', 'Temiri Blagg', 'Temmin Wexley',
+        'Thanisson',
+        'Quiggold',
+        'U.O. Statura', 'Ubert Quaril', 'Unamo', 'Unkar Plutt',
+        'Vober Dand', 'Volzang Li-Thrull',
+        'Watto', 'Wedge Antilles', 'Wicket Warrick', 'Wilhuff Tarkin', 'Wollivan',
+        'Zam Wesell', 'Zuvio',
     ];
 
     /**

@@ -11,7 +11,7 @@ class Factory extends FakerFactory
      * @var array
      */
     protected static $jediProviders = [
-        'Character', 'Droid', 'Movie', 'Planet', 'Species', 'Vehicle',
+        'Character', 'Droid', 'Movie', 'Planet', 'Species', 'Squadron', 'Vehicle',
     ];
 
     /**

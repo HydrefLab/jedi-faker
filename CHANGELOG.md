@@ -13,3 +13,9 @@
 
 ### Fixed
 * Fixed `IGG-88` droid name
+
+## v1.2.0 (23-01-2018)
+
+### Added
+* Added new characters, droids, planets and species from Episode VII and Episode VIII
+* Added new squadron formatter

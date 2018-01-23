@@ -77,6 +77,14 @@ $faker->species;    // Wookiee
 $faker->vehicle;    // Millennium Falcon
 ```
 
+### `HydrefLab\JediFaker\Provider\Squadron`
+```
+$faker->squadron;       // Green
+$faker->squadronName;   // Blue Squadron
+$faker->pilot;          // Red Leader or Blue #7
+$faker->pilotRank;      // Pilot
+```
+
 ## Contributing
 
 Contributions are welcome! Please, read [CONTRIBUTING][] for details.

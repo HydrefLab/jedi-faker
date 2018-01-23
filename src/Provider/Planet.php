@@ -12,7 +12,7 @@ class Planet extends Base
     protected static $planets = [
         'Ahch-To', 'Alderaan',
         'Bespin',
-        'Cantonica', 'Cato Neimoidia', 'Coruscant',
+        'Cantonica', 'Cato Neimoidia', 'Coruscant', 'Crait',
         'D\'Qar', 'Dagobah',
         'Endor',
         'Felucia',
