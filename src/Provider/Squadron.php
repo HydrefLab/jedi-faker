@@ -40,7 +40,7 @@ class Squadron extends Base
      * @var array
      */
     protected static $pilotRank = [
-        'Leader', 'Pilot',
+        'Leader', 'Pilot', 'Pilot', 'Pilot', 'Pilot', 'Pilot', 'Pilot', 'Pilot', 'Pilot', 'Pilot',
     ];
 
     /**
