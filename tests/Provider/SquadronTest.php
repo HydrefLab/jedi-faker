@@ -13,6 +13,18 @@ class SquadronTest extends TestCase
         $this->assertNotNull($faker->squadron);
     }
 
+    public function testSquadronNameContainsSquadronWord()
+    {
+        $faker = Factory::create();
+        $this->assertContains('Squadron', $faker->squadronName);
+    }
+
+    public function testSquadronDoesNotContainSquadronWord()
+    {
+        $faker = Factory::create();
+        $this->assertNotContains('Squadron', $faker->squadron);
+    }
+
     public function testPilotIsNotNull()
     {
         $faker = Factory::create();
@@ -22,6 +34,6 @@ class SquadronTest extends TestCase
     public function testRankIsNotNull()
     {
         $faker = Factory::create();
-        $this->assertNotNull($faker->rank);
+        $this->assertNotNull($faker->pilotRank);
     }
 }

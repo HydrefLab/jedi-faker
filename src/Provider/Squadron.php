@@ -10,7 +10,7 @@ class Squadron extends Base
      * @var array
      */
     protected static $pilotFormat = [
-        '{{squadron}} {{rank}}'
+        '{{squadron}} {{pilotRank}}'
     ];
 
     /**
@@ -39,40 +39,51 @@ class Squadron extends Base
     /**
      * @var array
      */
-    protected static $rank = [
-        'Leader', 'Pilot',
+    protected static $pilotRank = [
+        'Leader', 'Pilot', 'Pilot', 'Pilot', 'Pilot', 'Pilot', 'Pilot', 'Pilot', 'Pilot', 'Pilot',
     ];
-
-    /**
-     * @return string
-     */
-    public function pilot(): string
-    {
-        // Replace generated 'Pilot' word with '~#' in order to use numerify function,
-        // then replace '~' with '#' to have results such as 'Gold #7'.
-
-        $pilot = str_replace('Pilot', '~#', $this->generator->parse(static::randomElement(static::$pilotFormat)));
-
-        return str_replace('~', '#', static::numerify($pilot));
-    }
 
     /**
      * @return string
      */
     public function squadron(): string
     {
-        return sprintf(
-            '%s %s',
-            $this->generator->parse(static::randomElement(static::$squadron)),
-            static::$squadronWord
-        );
+        return $this->generator->parse(static::randomElement(static::$squadron));
     }
 
     /**
      * @return string
      */
-    public function rank(): string
+    public function squadronName(): string
     {
-        return $this->generator->parse(static::randomElement(static::$rank));
+        return $this->generator->parse(static::randomElement(static::squadronFormat()));
+    }
+
+    /**
+     * @return string
+     */
+    public function pilot(): string
+    {
+        $pilot = $this->generator->parse(static::randomElement(static::$pilotFormat));
+
+        return false !== strpos($pilot, 'Pilot')
+            ? str_replace('Pilot', '#' . static::numberBetween(1, 12), $pilot)
+            : $pilot;
+    }
+
+    /**
+     * @return string
+     */
+    public function pilotRank(): string
+    {
+        return $this->generator->parse(static::randomElement(static::$pilotRank));
+    }
+
+    /**
+     * @return array
+     */
+    protected static function squadronFormat(): array
+    {
+        return ['{{squadron}} ' . static::$squadronWord];
     }
 }
