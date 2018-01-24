@@ -13,7 +13,7 @@ class Planet extends Base
         'Ahch-To', 'Alderaan',
         'Bespin',
         'Cantonica', 'Cato Neimoidia', 'Coruscant', 'Crait',
-        'D\'Qar', 'Dagobah',
+        'D\'Qar', 'Dantooine', 'Dagobah',
         'Endor',
         'Felucia',
         'Geonosis',
