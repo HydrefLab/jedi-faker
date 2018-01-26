@@ -19,3 +19,8 @@
 ### Added
 * Added new characters, droids, planets and species from Episode VII and Episode VIII
 * Added new squadron formatter
+
+## v1.3.0 (26-01-2018)
+
+### Added
+* Added new characters, quotes and planets from Episode VI, Episode V and Episode VI
