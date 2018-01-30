@@ -20,18 +20,19 @@ class Character extends Base
      * @var array
      */
     protected static $lightSide = [
-        'Adi Gallia', 'Agen Kolar', 'Anakin Skywalker',
-        'Coleman Kcaj',
+        'Aayla Secura', 'Adi Gallia', 'Agen Kolar', 'Anakin Skywalker',
+        'Coleman Kcaj', 'Coleman Trebor',
         'Depa Billaba',
         'Eeth Koth', 'Even Piell',
+        'Jocasta Nu',
         'Ki-Adi-Mundi', 'Kit Fisto',
         'Obi-Wan Kenobi',
-        'Leia Organa', 'Luke Skywalker',
+        'Leia Organa', 'Luke Skywalker', 'Luminara Unduli',
         'Mace Windu',
         'Oppo Rancisis',
         'Plo Koon',
         'Rey',
-        'Saesee Tiin', 'Shaak Ti', 'Stass Allie',
+        'Saesee Tiin', 'Shaak Ti', 'Sifo-Dyas', 'Stass Allie',
         'Qui-Gon Jinn', 'Quinlan Vos',
         'Yaddle', 'Yarael Poof', 'Yoda',
     ];
