@@ -23,6 +23,7 @@ class Character extends Base
         'Aayla Secura', 'Adi Gallia', 'Agen Kolar', 'Anakin Skywalker',
         'Barriss Offee', 'Bultar Swan',
         'Coleman Kcaj', 'Coleman Trebor',
+        'Cin Drallig',
         'Depa Billaba',
         'Eeth Koth', 'Even Piell',
         'Fi-Ek Sirch',
