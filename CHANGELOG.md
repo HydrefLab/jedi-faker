@@ -24,3 +24,8 @@
 
 ### Added
 * Added new characters, quotes and planets from Episode VI, Episode V and Episode VI
+
+## v1.4.0 (03-02-2018)
+
+### Added
+* Added new characters and quotes from Episode I, Episode II and Episode III
